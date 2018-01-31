@@ -27,39 +27,40 @@
 
 	<div class="eq-params">
 		<div class="eq-slider-columns">
-			<label for="lShelfGain">Gain</label>
-			<input type="range" class="eq-sliders" id="low-shelf-gain">
-			<label for="lShelfFreq">Frequency</label>
-			<input type="range" class="eq-sliders" id="low-shelf-freq">
+			<label for="lShelfGain">Gain: <span id="low-shelf-gain-val"></span></label>
+			<input type="range" class="eq-sliders" id="low-shelf-gain" min="0" max="16" step="0.01">
+			<label for="lShelfFreq">Frequency: <span id="low-shelf-freq-val"></span></label>
+			<input type="range" class="eq-sliders" id="low-shelf-freq" min="20" max="20000" step="0.01" />
 		</div>
 		<div class="eq-slider-columns">
-			<label for="peak1Gain">Gain</label>
-			<input type="range" class="eq-sliders" id="peak1-gain">
-			<label for="peak1Freq">Frequency</label>
-			<input type="range" class="eq-sliders" id="peak1-freq">
-			<label for="peak1Q">Q</label>
-			<input type="range" class="eq-sliders" id="peak1-Q">
+			<label for="peak1Gain">Gain:  <span id="peak1-gain-val"></span></label>
+			<input type="range" class="eq-sliders" id="peak1-gain" min="0" max="20" step="0.01">
+			<label for="peak1Freq">Frequency: <span id="peak1-freq-val"></span></label>
+			<input type="range" class="eq-sliders" id="peak1-freq" min="20" max="20000" step="0.01">
+			<label for="peak1Q">Q: <span id="peak1-Q-val"></span></label>
+			<input type="range" class="eq-sliders" id="peak1-Q" min="0" max="1" step="0.01">
 		</div>
 		<div class="eq-slider-columns">
-			<label for="peak2Gain">Gain</label>
-			<input type="range" class="eq-sliders" id="peak2-gain">
-			<label for="peak2Freq">Frequency</label>
-			<input type="range" class="eq-sliders" id="peak2-freq">
-			<label for="peak2Q">Q</label>
-			<input type="range" class="eq-sliders" id="peak2-Q">
+			<label for="peak2Gain">Gain: <span id="peak2-gain-val"></span></label>
+			<input type="range" class="eq-sliders" id="peak2-gain" min="0" max="20" step="0.01">
+			<label for="peak2Freq">Frequency: <span id="peak2-freq-val"></span></label>
+			<input type="range" class="eq-sliders" id="peak2-freq" min="20" max="20000" step="0.01">
+			<label for="peak2Q">Q: <span id="peak2-Q-val"></span></label>
+			<input type="range" class="eq-sliders" id="peak2-Q" min="0" max="1" step="0.01">
 		</div>
 		<div class="eq-slider-columns">
-			<label for="hShelfGain">Gain</label>
-			<input type="range" class="eq-sliders" id="high-shelf-gain">
-				<label for="hShelfFreq">Frequency</label>
-			<input type="range" class="eq-sliders" id="high-shelf-freq">
+			<label for="hShelfGain">Gain: <span id="high-shelf-gain-val"></span></label>
+			<input type="range" class="eq-sliders" id="high-shelf-gain" min="0" max="16" step="0.01"
+				<label for="hShelfFreq">Frequency: <span id="high-shelf-freq-val"></span></label>
+			<input type="range" class="eq-sliders" id="high-shelf-freq" min="20" max="20000" step="0.01">
 		</div>
 		
 	</div>
 
 	<div class="master-volume">
-		<label for="master-volume-slider">Master Volume</label>
-		<input type="range" id="master-volume-slider">
+		<label for="master-volume-slider">Master Volume: <span id="masterVol-gain-val"></span></label>
+		<input type="range" id="master-volume-slider"
+		min="0" max=".5" step="0.01">
 	</div>
 
 </div>
