@@ -1,12 +1,7 @@
 html {
-	background-color: #c9c9c9;
 	color: #323232;
 	font: 16px Verdana, sans-serif;
-	--button-border-radius: 7px;
-}
-
-body {
-	
+	--button-border-radius: 2px;
 }
 
 .container {
@@ -18,51 +13,35 @@ body {
 header h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: yellow;
-	text-shadow: 3px 4px 0px #00000094;
-	font-size: 2.5rem;
+	color: dodgerblue;
+	font-size: 3rem;
+	font-weight: 800;
+	padding-top: 40px;
+	text-shadow: 2px 1px 5px #00000096;
+
 }
 
 .play-stop-buttons {
 	display: block;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 90px;
 }
 
 #play-btn, #stop-btn {
 	padding: 20px;
-	font-size: 1.2rem;
-	border-radius: var(--button-border-radius);
 	margin: 20px;
-	color: #fff;
-}
-
-#play-btn {
-	background-color: green;
-}
-
-#stop-btn {
-	background-color: red;
 }
 
 .eq-band-types {
 	display: flex;
 	justify-content: space-around;
-	padding-top: 60px;
+	padding-top: 120px;
 }
 
 .eq-bands {
 	padding: 10px;
 	border-radius: var(--button-border-radius);
 	font-weight: 800;
-}
-
-#low-shelf, #high-shelf {
-	background-color: powderblue;
-}
-
-#peak1, #peak2 {
-	background-color: pink;
 }
 
 .eq-params {
@@ -86,7 +65,7 @@ header h1 {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	padding-top: 40px;
+	padding-top: 120px;
 	max-width: 300px;
 	margin: auto;
 }
@@ -95,8 +74,5 @@ header h1 {
 	margin-top: 20px;
 }
 
-span {
-	color: yellow;
-}
 
 

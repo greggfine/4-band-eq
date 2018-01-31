@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>4-Band-Eq</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="lib/foundation-6.4.2-complete/css/foundation.css" />
+
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,15 +20,15 @@
 	</header>
 
 	<div class="play-stop-buttons">
-		<button id="play-btn">Play</button>
-		<button id="stop-btn">Stop</button>
+		<button id="play-btn" class="success button">Play</button>
+		<button id="stop-btn" class="alert button">Stop</button>
 	</div>
 
 	<div class="eq-band-types">
-		<div class="eq-bands" id="low-shelf">Low Shelf</div>
-		<div class="eq-bands" id="peak1">Peak 1</div>
-		<div class="eq-bands" id="peak2">Peak 2</div>
-		<div class="eq-bands" id="high-shelf">High Shelf</div>
+		<div class="eq-bands hollow button primary" id="low-shelf">Low Shelf</div>
+		<div class="eq-bands hollow button warning" id="peak1">Peak 1</div>
+		<div class="eq-bands hollow button warning" id="peak2">Peak 2</div>
+		<div class="eq-bands hollow button primary" id="high-shelf">High Shelf</div>
 	</div>
 
 	<div class="eq-params">
@@ -65,6 +71,12 @@
 
 </div>
 
+<script src="lib/foundation-6.4.2-complete/js/vendor/jquery.js"></script>
+<script src="lib/foundation-6.4.2-complete/js/vendor/what-input.js"></script>
+<script src="lib/foundation-6.4.2-complete/js/vendor/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
 <script src="main.js"></script>
 </body>
 </html>
