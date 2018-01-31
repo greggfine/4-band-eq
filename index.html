@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>4-Band-Eq</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+	
+	<header>
+		<h1>4-Band-Eq</h1>
+	</header>
+
+	<div class="play-stop-buttons">
+		<button id="play-btn">Play</button>
+		<button id="stop-btn">Stop</button>
+	</div>
+
+	<div class="eq-band-types">
+		<div class="eq-bands">Low Shelf</div>
+		<div class="eq-bands">Peak 1</div>
+		<div class="eq-bands">Peak 2</div>
+		<div class="eq-bands">High Shelf</div>
+	</div>
+
+	<div class="eq-params">
+		<div class="eq-slider-columns">
+			<label for="lShelfGain">Gain</label>
+			<input type="range" class="eq-sliders" id="lShelfGain">
+			<label for="lShelfFreq">Frequency</label>
+			<input type="range" class="eq-sliders" id="lShelfFreq">
+		</div>
+		<div class="eq-slider-columns">
+			<label for="peak1Gain">Gain</label>
+			<input type="range" class="eq-sliders" id="peak1Gain">
+			<label for="peak1Freq">Frequency</label>
+			<input type="range" class="eq-sliders" id="peak1Freq">
+			<label for="peak1Q">Q</label>
+			<input type="range" class="eq-sliders" id="peak1Q">
+		</div>
+		<div class="eq-slider-columns">
+			<label for="peak2Gain">Gain</label>
+			<input type="range" class="eq-sliders" id="peak2Gain">
+			<label for="peak2Freq">Frequency</label>
+			<input type="range" class="eq-sliders" id="peak2Freq">
+			<label for="peak2Q">Q</label>
+			<input type="range" class="eq-sliders" id="peak2Q">
+		</div>
+		<div class="eq-slider-columns">
+			<label for="hShelfGain">Gain</label>
+			<input type="range" class="eq-sliders" id="hShelfGain">
+				<label for="hShelfFreq">Frequency</label>
+			<input type="range" class="eq-sliders" id="hShelfFreq">
+		</div>
+		
+	</div>
+
+	<div class="master-volume">
+		<label for="master-volume-slider">Master Volume</label>
+		<input type="range" id="master-volume-slider">
+	</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

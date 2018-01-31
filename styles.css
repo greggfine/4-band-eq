@@ -1,0 +1,74 @@
+html {
+	background-color: #bababa;
+	color: #323232;
+	font: 16px Verdana, sans-serif;
+}
+
+body {
+	
+}
+
+.container {
+	max-width: 960px;
+	min-width: 580px;
+	margin: auto;
+}
+
+header h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.play-stop-buttons {
+	display: block;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#play-btn, #stop-btn {
+	padding: 20px;
+}
+
+.eq-band-types {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+
+.eq-bands {
+	border: 1px solid;
+	padding: 10px;
+}
+
+.eq-params {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+
+.eq-slider-columns {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.eq-sliders {
+	border: 1px solid;
+	padding: 15px;
+}
+
+.master-volume {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+	max-width: 300px;
+	margin: auto;
+}
+
+#master-volume-slider {
+	margin-top: 20px;
+}
+
+
+
