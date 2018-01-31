@@ -1,7 +1,8 @@
 html {
-	background-color: #bababa;
+	background-color: #c9c9c9;
 	color: #323232;
 	font: 16px Verdana, sans-serif;
+	--button-border-radius: 7px;
 }
 
 body {
@@ -17,27 +18,51 @@ body {
 header h1 {
 	text-align: center;
 	text-transform: uppercase;
+	color: yellow;
+	text-shadow: 3px 4px 0px #00000094;
+	font-size: 2.5rem;
 }
 
 .play-stop-buttons {
 	display: block;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 #play-btn, #stop-btn {
 	padding: 20px;
+	font-size: 1.2rem;
+	border-radius: var(--button-border-radius);
+	margin: 20px;
+	color: #fff;
+}
+
+#play-btn {
+	background-color: green;
+}
+
+#stop-btn {
+	background-color: red;
 }
 
 .eq-band-types {
 	display: flex;
 	justify-content: space-around;
-	padding-top: 40px;
+	padding-top: 60px;
 }
 
 .eq-bands {
-	border: 1px solid;
 	padding: 10px;
+	border-radius: var(--button-border-radius);
+	font-weight: 800;
+}
+
+#low-shelf, #high-shelf {
+	background-color: powderblue;
+}
+
+#peak1, #peak2 {
+	background-color: pink;
 }
 
 .eq-params {
